@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Planes AJ.PowerFitness92</title>
+  <style>
+    body { margin: 0; font-family: 'Arial Black', sans-serif; color: white; scroll-behavior: smooth; }
+    section { padding: 80px 20px; text-align: center; }
+    .hero {
+      background: url('A_digital_painting_or_manipulated_photograph_depic.png') center/cover no-repeat, #000;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      color: white;
+    }
+    .hero h1 { font-size: 2.5rem; margin-bottom: 20px; }
+    .hero p { font-size: 1.2rem; margin-bottom: 40px; }
+    .hero .arrow { font-size: 2rem; animation: bounce 2s infinite; }
+
+    @keyframes bounce {
+      0%, 100% { transform: translateY(0); }
+      50% { transform: translateY(10px); }
+    }
+
+    .plan {
+      max-width: 600px;
+      margin: 0 auto 40px;
+      border-radius: 20px;
+      padding: 40px 20px;
+      box-shadow: 0 0 20px rgba(0,0,0,0.3);
+    }
+    .plan h2 { margin-bottom: 20px; font-size: 1.8rem; }
+    .plan ul { list-style: none; padding: 0; text-align: left; }
+    .plan ul li::before { content: '✅ '; }
+    .plan ul li { margin-bottom: 10px; }
+    .plan button {
+      margin-top: 20px;
+      padding: 12px 24px;
+      font-size: 1rem;
+      font-weight: bold;
+      border: none;
+      border-radius: 10px;
+      cursor: pointer;
+    }
+
+    .plan-followup { background: #003300; }
+    .plan-followup button { background: #00cc66; color: black; }
+
+    .plan-personal { background: #001a33; }
+    .plan-personal button { background: #3399ff; color: white; }
+
+    .plan-express { background: #f4f4f4; color: black; }
+    .plan-express ul li::before { content: '✔️ '; }
+    .plan-express button { background: #444; color: white; }
+
+    footer {
+      background: #111;
+      color: #999;
+      font-size: 0.8rem;
+      padding: 20px;
+      text-align: center;
+    }
+    a { color: #999; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+  </style>
+</head>
+<body>
+  <section class="hero">
+    <h1>Elige tu plan. Mejora tu cuerpo y tu mente con AJ.PowerFitness92</h1>
+    <p>Planes para quienes realmente quieren transformar su vida.</p>
+    <div class="arrow">⬇️</div>
+  </section>
+
+  <section class="plan plan-followup">
+    <h2>Plan + Seguimiento – 50 €</h2>
+    <ul>
+      <li>Entrenamiento + dieta personalizada</li>
+      <li>Videollamada inicial</li>
+      <li>Revisión oficial cada 15 días</li>
+      <li>Soporte por WhatsApp todo el mes</li>
+    </ul>
+    <a href="https://www.paypal.com/ncp/payment/AMGUF943JH9RW"><button>Quiero este plan</button></a>
+  </section>
+
+  <section class="plan plan-personal">
+    <h2>Plan Personalizado – 25 €</h2>
+    <ul>
+      <li>Videollamada inicial</li>
+      <li>Rutina + dieta personalizada</li>
+      <li>Sin seguimiento posterior</li>
+    </ul>
+    <a href="https://www.paypal.com/ncp/payment/HXN5ZBK6WLMPW"><button>Elegir este plan</button></a>
+  </section>
+
+  <section class="plan plan-express">
+    <h2>Consulta Exprés – 10 €</h2>
+    <ul>
+      <li>Videollamada de 45 minutos</li>
+      <li>Resolución de dudas</li>
+      <li>Ideal para revisar tu progreso</li>
+    </ul>
+    <a href="https://www.paypal.com/ncp/payment/QU5JAXZLYC8NS"><button>Reservar ahora</button></a>
+  </section>
+
+  <footer>
+    <p>Una vez completes el pago, recibirás acceso directo a tu plan personalizado.</p>
+    <a href="#">Aviso legal / Política de privacidad</a>
+  </footer>
+</body>
+</html>
